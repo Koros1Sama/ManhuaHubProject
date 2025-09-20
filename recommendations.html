@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ManhuaHub - Recommendations</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <img src="images/Logo.png" alt="ManhuaHub Logo" class="logo-img">
+                    <span class="logo-text">ManhuaHub</span>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="recommendations.html" class="nav-link active">Recommendations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="app-recommendation.html" class="nav-link">App</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="login.html" class="nav-link login-btn">Login</a>
+                    </li>
+                </ul>
+                <div class="menu">
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1 class="page-title">Curated Recommendations</h1>
+                <p class="page-subtitle">Discover handpicked manhua titles that will captivate your imagination</p>
+            </div>
+        </section>
+
+        <section class="filter-section">
+            <div class="container">
+                <div class="filter-tabs">
+                    <input type="radio" name="filter" id="all" checked>
+                    <input type="radio" name="filter" id="action">
+                    <input type="radio" name="filter" id="romance">
+                    <input type="radio" name="filter" id="fantasy">
+                    
+                    <div class="tab-labels">
+                        <label for="all" class="tab-label">All</label>
+                        <label for="action" class="tab-label">Action</label>
+                        <label for="romance" class="tab-label">Romance</label>
+                        <label for="fantasy" class="tab-label">Fantasy</label>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="recommendations">
+            <div class="container">
+                <div class="recommendations-grid">
+                    <div class="recommendation-card" data-category="action fantasy">
+                        <div class="card-image">
+                            <img src="images/manhua_cover_5.jpg" alt="The Legend of the Dragon King">
+                            <div class="card-badge">Top Pick</div>
+                            <div class="card-overlay">
+                                <div class="overlay-content">
+                                    <h3>The Legend of the Dragon King</h3>
+                                    <p>In a world where martial souls are awakened, Tang Wulin dreams of becoming a powerful soul master. Follow his journey as he overcomes challenges, forges friendships, and uncovers ancient secrets.</p>
+                                    <div class="overlay-actions">
+                                        <button class="btn btn-primary">Read Now</button>
+                                        <button class="btn btn-secondary">Add to List</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-header">
+                                <h3 class="card-title">The Legend of the Dragon King</h3>
+                                <div class="card-rating">
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <span class="rating-text">4.8/5</span>
+                                </div>
+                            </div>
+                            <p class="card-description">Epic martial arts adventure in a world of awakened souls</p>
+                            <div class="card-tags">
+                                <span class="tag">Action</span>
+                                <span class="tag">Fantasy</span>
+                                <span class="tag">Martial Arts</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="recommendation-card" data-category="action fantasy">
+                        <div class="card-image">
+                            <img src="images/manhua_cover_2.jpg" alt="Apotheosis">
+                            <div class="card-badge">Editor's Choice</div>
+                            <div class="card-overlay">
+                                <div class="overlay-content">
+                                    <h3>Apotheosis</h3>
+                                    <p>Luo Zheng, once a young master, falls into slavery after his family is annihilated. He discovers a mysterious cultivation technique that allows him to ascend to godhood. Witness his epic rise against all odds.</p>
+                                    <div class="overlay-actions">
+                                        <button class="btn btn-primary">Read Now</button>
+                                        <button class="btn btn-secondary">Add to List</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-header">
+                                <h3 class="card-title">Apotheosis</h3>
+                                <div class="card-rating">
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <span class="rating-text">4.7/5</span>
+                                </div>
+                            </div>
+                            <p class="card-description">Journey from slavery to godhood through cultivation</p>
+                            <div class="card-tags">
+                                <span class="tag">Action</span>
+                                <span class="tag">Fantasy</span>
+                                <span class="tag">Cultivation</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="recommendation-card" data-category="action fantasy">
+                        <div class="card-image">
+                            <img src="images/manhua_cover_6.jpg" alt="Tales of Demons and Gods">
+                            <div class="card-badge">Trending</div>
+                            <div class="card-overlay">
+                                <div class="overlay-content">
+                                    <h3>Tales of Demons and Gods</h3>
+                                    <p>Nie Li, the strongest Demon Spiritist in his past life, is reborn into his younger self. Armed with vast knowledge, he vows to protect his loved ones and prevent the destruction of his city.</p>
+                                    <div class="overlay-actions">
+                                        <button class="btn btn-primary">Read Now</button>
+                                        <button class="btn btn-secondary">Add to List</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-header">
+                                <h3 class="card-title">Tales of Demons and Gods</h3>
+                                <div class="card-rating">
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <span class="rating-text">4.9/5</span>
+                                </div>
+                            </div>
+                            <p class="card-description">Reincarnation tale of revenge and protection</p>
+                            <div class="card-tags">
+                                <span class="tag">Action</span>
+                                <span class="tag">Fantasy</span>
+                                <span class="tag">Reincarnation</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="recommendation-card" data-category="action fantasy">
+                        <div class="card-image">
+                            <img src="images/manhua_cover_4.jpg" alt="Martial Peak">
+                            <div class="card-badge">Popular</div>
+                            <div class="card-overlay">
+                                <div class="overlay-content">
+                                    <h3>Martial Peak</h3>
+                                    <p>Yang Kai, a humble disciple, stumbles upon a black book that grants him extraordinary powers. His path to martial peak is filled with danger, adventure, and countless battles against formidable foes.</p>
+                                    <div class="overlay-actions">
+                                        <button class="btn btn-primary">Read Now</button>
+                                        <button class="btn btn-secondary">Add to List</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-header">
+                                <h3 class="card-title">Martial Peak</h3>
+                                <div class="card-rating">
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <span class="rating-text">4.6/5</span>
+                                </div>
+                            </div>
+                            <p class="card-description">Path to martial supremacy through trials and battles</p>
+                            <div class="card-tags">
+                                <span class="tag">Action</span>
+                                <span class="tag">Fantasy</span>
+                                <span class="tag">Adventure</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="recommendation-card" data-category="romance">
+                        <div class="card-image">
+                            <img src="images/manhua_cover_5.jpg" alt="Secret Lady">
+                            <div class="card-badge">Romance</div>
+                            <div class="card-overlay">
+                                <div class="overlay-content">
+                                    <h3>Secret Lady</h3>
+                                    <p>A captivating romance story filled with mystery, intrigue, and heartwarming moments that will keep you turning pages.</p>
+                                    <div class="overlay-actions">
+                                        <button class="btn btn-primary">Read Now</button>
+                                        <button class="btn btn-secondary">Add to List</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-header">
+                                <h3 class="card-title">Secret Lady</h3>
+                                <div class="card-rating">
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <span class="rating-text">4.5/5</span>
+                                </div>
+                            </div>
+                            <p class="card-description">Mystery and romance intertwined in a captivating tale</p>
+                            <div class="card-tags">
+                                <span class="tag">Romance</span>
+                                <span class="tag">Mystery</span>
+                                <span class="tag">Drama</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="recommendation-card" data-category="action">
+                        <div class="card-image">
+                            <img src="images/manhua_cover_6.jpg" alt="Battle Through Heavens">
+                            <div class="card-badge">Action</div>
+                            <div class="card-overlay">
+                                <div class="overlay-content">
+                                    <h3>Battle Through Heavens</h3>
+                                    <p>Intense battles and incredible powers await in this action-packed adventure that will keep you on the edge of your seat.</p>
+                                    <div class="overlay-actions">
+                                        <button class="btn btn-primary">Read Now</button>
+                                        <button class="btn btn-secondary">Add to List</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-header">
+                                <h3 class="card-title">Battle Through Heavens</h3>
+                                <div class="card-rating">
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <span class="rating-text">4.4/5</span>
+                                </div>
+                            </div>
+                            <p class="card-description">Epic battles and power struggles in a mystical world</p>
+                            <div class="card-tags">
+                                <span class="tag">Action</span>
+                                <span class="tag">Adventure</span>
+                                <span class="tag">Supernatural</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="load-more">
+            <div class="container">
+                <button class="btn btn-outline load-more-btn">Load More Recommendations</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="images/Logo.png" alt="ManhuaHub Logo" class="footer-logo-img">
+                        <span class="footer-logo-text">ManhuaHub</span>
+                    </div>
+                    <p class="footer-description">Your ultimate destination for discovering amazing manhua stories and connecting with fellow readers.</p>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="recommendations.html">Recommendations</a></li>
+                        <li><a href="app-recommendation.html">App</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title">Connect</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-discord"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 ManhuaHub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+        <script src="https://kit.fontawesome.com/eeacf863f1.js" crossorigin="anonymous"></script>
+</body>
+</html>

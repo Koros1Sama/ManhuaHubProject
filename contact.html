@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ManhuaHub - Contact</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <img src="images/Logo.png" alt="ManhuaHub Logo" class="logo-img">
+                    <span class="logo-text">ManhuaHub</span>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="recommendations.html" class="nav-link">Recommendations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="app-recommendation.html" class="nav-link">App</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link active">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="login.html" class="nav-link login-btn">Login</a>
+                    </li>
+                </ul>
+                <div class="menu">
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-hero">
+            <div class="container">
+                <h1 class="page-title">Get in Touch</h1>
+                <p class="page-subtitle">We'd love to hear from you! Send us a message and we'll respond as soon as possible.</p>
+            </div>
+        </section>
+
+        <section class="contact-content">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-form-section">
+                        <h2 class="form-title">Send us a Message</h2>
+                        <form class="contact-form">
+                            <div class="form-group">
+                                <label for="name" class="form-label">Full Name</label>
+                                <input type="text" id="name" name="name" class="form-input" required>
+                                <span class="form-focus-border"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email Address</label>
+                                <input type="email" id="email" name="email" class="form-input" required>
+                                <span class="form-focus-border"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject" class="form-label">Subject</label>
+                                <select id="subject" name="subject" class="form-select" required>
+                                    <option value="">Choose a subject</option>
+                                    <option value="general">General Inquiry</option>
+                                    <option value="feedback">Feedback</option>
+                                    <option value="suggestion">Suggestion</option>
+                                    <option value="bug">Bug Report</option>
+                                    <option value="partnership">Partnership</option>
+                                </select>
+                                <span class="form-focus-border"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea id="message" name="message" class="form-textarea" rows="6" required></textarea>
+                                <span class="form-focus-border"></span>
+                            </div>
+
+                            <div class="form-group checkbox-group">
+                                <input type="checkbox" id="newsletter" name="newsletter" class="form-checkbox">
+                                <label for="newsletter" class="checkbox-label">
+                                    <span class="checkbox-custom"></span>
+                                    Subscribe to our newsletter for updates and recommendations
+                                </label>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-large form-submit">
+                                <span class="btn-text">Send Message</span>
+                                <i class="fas fa-paper-plane btn-icon"></i>
+                            </button>
+                        </form>
+
+                        <div class="success-message" id="successMessage">
+                            <i class="fas fa-check-circle"></i>
+                            <h3>Message Sent Successfully!</h3>
+                            <p>Thank you for contacting us. We'll get back to you soon.</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-section">
+                        <h2 class="info-title">Contact Information</h2>
+                        
+                        <div class="contact-info">
+                            <div class="info-item">
+                                <div class="info-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="info-content">
+                                    <h3>Email</h3>
+                                    <p>littlefighter2turbo@gmail.com</p>
+                                    <p>littlefighter2turbo@gmail.com</p>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <div class="info-icon">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <div class="info-content">
+                                    <h3>Response Time</h3>
+                                    <p>We typically respond within 24 hours</p>
+                                    <p>Monday - Friday: 9AM - 6PM EST</p>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <div class="info-icon">
+                                    <i class="fas fa-heart"></i>
+                                </div>
+                                <div class="info-content">
+                                    <h3>Community</h3>
+                                    <p>Join our Discord server for real-time discussions</p>
+                                    <p>Connect with fellow manhua enthusiasts</p>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <div class="info-icon">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                                <div class="info-content">
+                                    <h3>Team / Founder</h3>
+                                    <p>عبدالرحمن إسماعيل محمد سيف المخلافي</p>
+                                    <p>
+                                        <a href="mailto:littlefighter2turbo@gmail.com">littlefighter2turbo@gmail.com</a> |
+                                        <a href="https://github.com/Koros1Sama" target="_blank" rel="noopener">GitHub</a> |
+                                        <a href="https://anilist.co/user/Koros1Sama/" target="_blank" rel="noopener">AniList</a> |
+                                        <a href="https://t.me/korosSama" target="_blank" rel="noopener">Telegram</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="social-section">
+                            <h3 class="social-title">Follow Us</h3>
+                            <div class="social-links-large">
+                                <a href="#" class="social-link-large facebook" title="Facebook">
+                                    <i class="fab fa-facebook-f"></i>
+                                    <span>Facebook</span>
+                                </a>
+                                <a href="#" class="social-link-large twitter" title="Twitter">
+                                    <i class="fab fa-twitter"></i>
+                                    <span>Twitter</span>
+                                </a>
+                                <a href="#" class="social-link-large instagram" title="Instagram">
+                                    <i class="fab fa-instagram"></i>
+                                    <span>Instagram</span>
+                                </a>
+                                <a href="https://t.me/korosSama" class="social-link-large discord" title="Telegram">
+                                    <i class="fab fa-telegram"></i>
+                                    <span>Telegram</span>
+                                </a>
+                                <a href="https://github.com/Koros1Sama" class="social-link-large youtube" title="GitHub">
+                                    <i class="fab fa-github"></i>
+                                    <span>GitHub</span>
+                                </a>
+                                <a href="https://anilist.co/user/Koros1Sama/" class="social-link-large reddit" title="AniList">
+                                    <i class="fas fa-globe"></i>
+                                    <span>AniList</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="faq-section">
+                            <h3 class="faq-title">Quick Help</h3>
+                            <div class="faq-links">
+                                <a href="#" class="faq-link">
+                                    <i class="fas fa-question-circle"></i>
+                                    <span>Frequently Asked Questions</span>
+                                </a>
+                                <a href="#" class="faq-link">
+                                    <i class="fas fa-book"></i>
+                                    <span>Reading Guide</span>
+                                </a>
+                                <a href="#" class="faq-link">
+                                    <i class="fas fa-mobile-alt"></i>
+                                    <span>App Support</span>
+                                </a>
+                                <a href="#" class="faq-link">
+                                    <i class="fas fa-shield-alt"></i>
+                                    <span>Privacy Policy</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-features">
+            <div class="container">
+                <h2 class="section-title">Why Contact Us?</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h3>Share Ideas</h3>
+                        <p>Have suggestions for new features or manhua recommendations? We'd love to hear your ideas!</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-bug"></i>
+                        </div>
+                        <h3>Report Issues</h3>
+                        <p>Found a bug or experiencing technical difficulties? Let us know so we can fix it quickly.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <h3>Partnership</h3>
+                        <p>Interested in collaborating with us? Reach out to discuss partnership opportunities.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>Feedback</h3>
+                        <p>Your feedback helps us improve. Share your experience and help us serve you better.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="images/Logo.png" alt="ManhuaHub Logo" class="footer-logo-img">
+                        <span class="footer-logo-text">ManhuaHub</span>
+                    </div>
+                    <p class="footer-description">Your ultimate destination for discovering amazing manhua stories and connecting with fellow readers.</p>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="recommendations.html">Recommendations</a></li>
+                        <li><a href="app-recommendation.html">App</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title">Connect</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-discord"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 ManhuaHub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+        <script src="https://kit.fontawesome.com/eeacf863f1.js" crossorigin="anonymous"></script>
+</body>
+</html>

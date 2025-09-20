@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ManhuaHub - Login & Register</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <img src="images/Logo.png" alt="ManhuaHub Logo" class="logo-img">
+                    <span class="logo-text">ManhuaHub</span>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="recommendations.html" class="nav-link">Recommendations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="app-recommendation.html" class="nav-link">App</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="login.html" class="nav-link login-btn active">Login</a>
+                    </li>
+                </ul>
+                <div class="menu">
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="auth-main">
+        <div class="auth-container">
+            <div class="auth-wrapper">
+                <div class="auth-toggle">
+                    <input type="radio" name="auth-mode" id="login-mode" checked>
+                    <input type="radio" name="auth-mode" id="register-mode">
+                    
+                    <div class="toggle-labels">
+                        <label for="login-mode" class="toggle-label">Login</label>
+                        <label for="register-mode" class="toggle-label">Register</label>
+                    </div>
+                    <div class="toggle-slider"></div>
+                </div>
+
+                <div class="auth-forms">
+                    <div class="auth-form login-form">
+                        <div class="form-header">
+                            <h2 class="form-title">Welcome Back!</h2>
+                            <p class="form-subtitle">Please log in to access your personalized recommendations and reading list.</p>
+                        </div>
+
+                        <form class="auth-form-content">
+                            <div class="form-group">
+                                <div class="input-wrapper">
+                                    <i class="fas fa-envelope input-icon"></i>
+                                    <input type="email" id="login-email" name="email" class="form-input" placeholder="Email Address" required>
+                                    <span class="input-focus-border"></span>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="input-wrapper">
+                                    <i class="fas fa-lock input-icon"></i>
+                                    <input type="password" id="login-password" name="password" class="form-input" placeholder="Password" required>
+                                    <button type="button" class="password-toggle">
+                                        <i class="fas fa-eye"></i>
+                                    </button>
+                                    <span class="input-focus-border"></span>
+                                </div>
+                            </div>
+
+                            <div class="form-options">
+                                <div class="checkbox-group">
+                                    <input type="checkbox" id="remember-me" name="remember" class="form-checkbox">
+                                    <label for="remember-me" class="checkbox-label">
+                                        <span class="checkbox-custom"></span>
+                                        Remember me
+                                    </label>
+                                </div>
+                                <a href="#" class="forgot-password">Forgot Password?</a>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-large auth-submit">
+                                <span class="btn-text">Log In</span>
+                                <i class="fas fa-arrow-right btn-icon"></i>
+                            </button>
+
+                            <div class="divider">
+                                <span class="divider-text">or continue with</span>
+                            </div>
+
+                            <div class="social-auth">
+                                <button type="button" class="social-btn google-btn">
+                                    <i class="fab fa-google"></i>
+                                    <span>Google</span>
+                                </button>
+                                <button type="button" class="social-btn facebook-btn">
+                                    <i class="fab fa-facebook-f"></i>
+                                    <span>Facebook</span>
+                                </button>
+                                <button type="button" class="social-btn twitter-btn">
+                                    <i class="fab fa-twitter"></i>
+                                    <span>Twitter</span>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="auth-form register-form">
+                        <div class="form-header">
+                            <h2 class="form-title">Join ManhuaHub!</h2>
+                            <p class="form-subtitle">Create an account to unlock personalized recommendations and connect with other fans.</p>
+                        </div>
+
+                        <form class="auth-form-content">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <div class="input-wrapper">
+                                        <i class="fas fa-user input-icon"></i>
+                                        <input type="text" id="register-firstname" name="firstname" class="form-input" placeholder="First Name" required>
+                                        <span class="input-focus-border"></span>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="input-wrapper">
+                                        <i class="fas fa-user input-icon"></i>
+                                        <input type="text" id="register-lastname" name="lastname" class="form-input" placeholder="Last Name" required>
+                                        <span class="input-focus-border"></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="input-wrapper">
+                                    <i class="fas fa-at input-icon"></i>
+                                    <input type="text" id="register-username" name="username" class="form-input" placeholder="Username" required>
+                                    <span class="input-focus-border"></span>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="input-wrapper">
+                                    <i class="fas fa-envelope input-icon"></i>
+                                    <input type="email" id="register-email" name="email" class="form-input" placeholder="Email Address" required>
+                                    <span class="input-focus-border"></span>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="input-wrapper">
+                                    <i class="fas fa-lock input-icon"></i>
+                                    <input type="password" id="register-password" name="password" class="form-input" placeholder="Password" required>
+                                    <button type="button" class="password-toggle">
+                                        <i class="fas fa-eye"></i>
+                                    </button>
+                                    <span class="input-focus-border"></span>
+                                </div>
+                                <div class="password-strength">
+                                    <div class="strength-bar">
+                                        <div class="strength-fill"></div>
+                                    </div>
+                                    <span class="strength-text">Password strength</span>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="input-wrapper">
+                                    <i class="fas fa-lock input-icon"></i>
+                                    <input type="password" id="register-confirm-password" name="confirm-password" class="form-input" placeholder="Confirm Password" required>
+                                    <span class="input-focus-border"></span>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="input-wrapper">
+                                    <i class="fas fa-calendar input-icon"></i>
+                                    <input type="date" id="register-birthdate" name="birthdate" class="form-input" required>
+                                    <span class="input-focus-border"></span>
+                                </div>
+                            </div>
+
+                            <div class="form-options">
+                                <div class="checkbox-group">
+                                    <input type="checkbox" id="terms-agreement" name="terms" class="form-checkbox" required>
+                                    <label for="terms-agreement" class="checkbox-label">
+                                        <span class="checkbox-custom"></span>
+                                        I agree to the <a href="#" class="terms-link">Terms of Service</a> and <a href="#" class="terms-link">Privacy Policy</a>
+                                    </label>
+                                </div>
+                                <div class="checkbox-group">
+                                    <input type="checkbox" id="newsletter-signup" name="newsletter" class="form-checkbox">
+                                    <label for="newsletter-signup" class="checkbox-label">
+                                        <span class="checkbox-custom"></span>
+                                        Subscribe to newsletter for updates and recommendations
+                                    </label>
+                                </div>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-large auth-submit">
+                                <span class="btn-text">Create Account</span>
+                                <i class="fas fa-user-plus btn-icon"></i>
+                            </button>
+
+                            <div class="divider">
+                                <span class="divider-text">or sign up with</span>
+                            </div>
+
+                            <div class="social-auth">
+                                <button type="button" class="social-btn google-btn">
+                                    <i class="fab fa-google"></i>
+                                    <span>Google</span>
+                                </button>
+                                <button type="button" class="social-btn facebook-btn">
+                                    <i class="fab fa-facebook-f"></i>
+                                    <span>Facebook</span>
+                                </button>
+                                <button type="button" class="social-btn twitter-btn">
+                                    <i class="fab fa-twitter"></i>
+                                    <span>Twitter</span>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="auth-benefits">
+                    <h3 class="benefits-title">Why Join ManhuaHub?</h3>
+                    <div class="benefits-list">
+                        <div class="benefit-item">
+                            <i class="fas fa-bookmark"></i>
+                            <span>Save your reading progress and favorites</span>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-star"></i>
+                            <span>Get personalized recommendations</span>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-comments"></i>
+                            <span>Join community discussions</span>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-bell"></i>
+                            <span>Receive updates on new chapters</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="auth-decoration">
+                <div class="floating-manhua">
+                    <img src="images/manhua_cover_1.jpg" alt="Manhua Cover" class="float-1">
+                    <img src="images/manhua_cover_2.jpg" alt="Manhua Cover" class="float-2">
+                    <img src="images/manhua_cover_3.jpg" alt="Manhua Cover" class="float-3">
+                </div>
+            </div>
+        </div>
+
+        <div class="toast-container">
+            <div class="toast success-toast" id="successToast">
+                <i class="fas fa-check-circle"></i>
+                <div class="toast-content">
+                    <h4>Success!</h4>
+                    <p>Your account has been created successfully.</p>
+                </div>
+                <button class="toast-close">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+
+            <div class="toast error-toast" id="errorToast">
+                <i class="fas fa-exclamation-circle"></i>
+                <div class="toast-content">
+                    <h4>Error!</h4>
+                    <p>Please check your credentials and try again.</p>
+                </div>
+                <button class="toast-close">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="images/Logo.png" alt="ManhuaHub Logo" class="footer-logo-img">
+                        <span class="footer-logo-text">ManhuaHub</span>
+                    </div>
+                    <p class="footer-description">Your ultimate destination for discovering amazing manhua stories and connecting with fellow readers.</p>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="recommendations.html">Recommendations</a></li>
+                        <li><a href="app-recommendation.html">App</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title">Connect</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-discord"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 ManhuaHub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+        <script src="https://kit.fontawesome.com/eeacf863f1.js" crossorigin="anonymous"></script>
+</body>
+</html>
